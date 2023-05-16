@@ -1,118 +1,51 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import Navbar from '../pages/components/navbar'
+import Footer from '../pages/components/footer'
+import { Tab } from '@headlessui/react'
+import  Router from 'next/router'
 
 export default function Home() {
   return (
+    
     <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
+      className={`flex flex-col min-h-screen bg-white`}
     >
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">pages/index.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+      <Navbar/>
+      <div className=' px-6 py-20 md:px-20 lg:px-20 lg:py-32 md:py-32'>
+        <h1 className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-bold text-4xl md:text-5xl lg:text-6xl '>Hot Beans<br></br> Web Developement</h1>
+        <p className='font-light text-sm'>(a company that says it cares but we rlly dont)</p>
       </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className=' px-6 w-[400px] md:w-[700px] lg:w-[700px] h-auto px-6 md:ml-10 lg:ml-10 '>
+          <h1 className='font-bold text-xl py-6 md:text-2xl lg:text-3xl'>Who we are</h1>
+          <p className='font-light leading-loose tracking-wide text-sm md:text-lg lg:text-lg'>Welcome to Hot Beans,<br></br><br></br> a leading web development company founded in 2008. We are a team of passionate professionals who are dedicated to delivering high-quality web development solutions to businesses of all sizes.<br></br>Our expertise lies in building custom websites and web applications that are tailored to meet our clients' unique business needs.<br></br> We take pride in our ability to develop intuitive, user-friendly websites that are optimized for maximum performance and speed.At Hot Beans, we understand that every business is different, and that's why we take a personalized approach to every project we work on.<br></br> We collaborate closely with our clients to ensure that we fully understand their goals and make a website that works for them</p>
+          <img className='w-[450px] h-[200px] md:w-[652px] md:h-[435px] lg:w-[652px] lg:h-[435px] rounded mt-6' src='Office.jpg'></img>
       </div>
+      <div className='w-[400px] md:w-[700px] lg:w-[700px] h-auto px-6 md:ml-auto lg:ml-auto'>
+      <h1 className='font-bold text-xl py-6 md:text-2xl lg:text-3xl'>Jobs</h1>
+          <p className='font-light text-sm tracking-wide leading-loose md:text-lg lg:text-lg '>Are you passionate about web development and design? Hot Beans, a leading web development company, is seeking talented individuals to join our dynamic team. We're currently hiring for junior and senior web developers, as well as UI/UX designers.
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+As a junior web developer, you'll have the opportunity to work on exciting projects and learn from experienced developers. We're looking for individuals with a solid foundation in web development and a desire to learn and grow.
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+For senior web developers, we're seeking individuals with a proven track record of delivering high-quality work, a deep understanding of the latest web development technologies, and a creative problem-solving mindset.
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Discover and deploy boilerplate example Next.js&nbsp;projects.
-          </p>
-        </a>
+As a UI/UX designer, you'll play a crucial role in creating engaging user experiences. We're looking for individuals with a strong eye for detail, a deep understanding of design principles, and the ability to collaborate effectively with our development team.
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+Hot Beans offers competitive compensation, a supportive work environment, and opportunities for growth and advancement. If you're ready to take the next step in your career, apply now and join our team of passionate professionals.</p>
+          <div className='mt-4'>
+          <button onClick={() => {Router.push('/jobs')}} className='ml-auto font-bold text-sm w-auto h-auto py-3 px-4 border-2 border-gray-800 rounded-full text-gray-400 cursor-pointer hover:bg-gray-800 hover:text-gray-200'>Look at Jobs Now</button>
+          </div>
       </div>
+      <div className='w-[400px] md:w-[700px] lg:w-[700px] h-auto px-6 md:ml-10 lg:ml-10 '>
+      <h1 className='font-bold text-xl py-6 md:text-2xl lg:text-3xl'>Learning</h1>
+      <img className='rounded ' src='coding.jpg'/>
+          <p className='font-light leading-loose tracking-wide text-sm mt-4 md:text-lg lg:text-lg'>At Hot Beans, we believe in empowering individuals and businesses to learn and grow in the ever-evolving world of web development. That's why we've curated a collection of valuable resources to help you master the art of web development.
+
+Our resource page features a range of free and paid resources, including tutorials, articles, videos, and courses, covering various aspects of web development. Whether you're a beginner just starting or an experienced developer looking to upskill, our resources cater to all levels of proficiency.</p>
+          <div className='mt-4'>
+          <button onClick={() => {Router.push('/learning')}} className='font-bold text-sm w-auto h-auto py-3 px-4 border-2 border-gray-800 rounded-full text-gray-400 cursor-pointer hover:bg-gray-800 hover:text-gray-200'>Learning recources</button>
+          </div>
+      </div>
+      
+      <Footer/>
     </main>
   )
 }
