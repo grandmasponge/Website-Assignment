@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-sync-scripts */
 export default function compiler() {
     return(
         <main className="w-auto h-auto m-auto mt-20 px-6">

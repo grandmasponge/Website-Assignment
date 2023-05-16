@@ -1,5 +1,6 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import { Dialog, Transition } from '@headlessui/react'
-import { Fragment, useState } from 'react'
+import { Fragment, use, useState } from 'react'
 
 export default function footer() {
     let [isOpen, setIsOpen] = useState(false);

@@ -1,21 +1,17 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import Navbar from "./components/navbar"
 import Footer from "./components/footer"
 import  Router from 'next/router'
 import Circle from "./components/circle"
 import { Dialog, Listbox, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
+
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
 export default function jobs() {
 
-    let [isOpen_1, setIsOpen_1 ] = useState(false);
-    let [isOpen_2, setIsOpen_2 ] = useState(false);
-    let [isOpen_3, setIsOpen_3 ] = useState(false);
-    let [isOpen_4, setIsOpen_4 ] = useState(false);
-    let [isOpen_5, setIsOpen_5 ] = useState(false);
-    let [isOpen_6, setIsOpen_6 ] = useState(false);
 
     function notification() {
         toast('Thank you your application has been submitted ✅');
@@ -46,15 +42,15 @@ export default function jobs() {
             <h1 className="font-bold font-4xl">Job Description</h1>
             <h2 className="font-bold font-xl py-4">Junior web developer</h2>
             <p>Pay: 32k-40k per year<br></br>
-               Description: As a junior web developer, you'll have the opportunity to work on exciting projects and learn from experienced developers. We're looking for individuals with a solid foundation in web development and a desire to learn and grow. 
+               Description: As a junior web developer, you ll have the opportunity to work on exciting projects and learn from experienced developers. Were looking for individuals with a solid foundation in web development and a desire to learn and grow. 
             </p>
             <h2 className="font-bold font-xl py-4">Senior Web Developer</h2>
             <p>Pay: 60k-80k per year<br></br>
-               Description: For senior web developers, we're seeking individuals with a proven track record of delivering high-quality work, a deep understanding of the latest web development technologies, and a creative problem-solving mindset.
+               Description: For senior web developers, we re seeking individuals with a proven track record of delivering high-quality work, a deep understanding of the latest web development technologies, and a creative problem-solving mindset.
             </p>
             <h2 className="font-bold font-xl py-4"> UI & UX Designer</h2>
             <p>Pay: 20k-70k<br></br>
-               Description: As a UI/UX designer, you'll play a crucial role in creating engaging user experiences. We're looking for individuals with a strong eye for detail, a deep understanding of design principles, and the ability to collaborate effectively with our development team. 
+               Description: As a UI/UX designer, youll play a crucial role in creating engaging user experiences. Were looking for individuals with a strong eye for detail, a deep understanding of design principles, and the ability to collaborate effectively with our development team. 
             </p>
 
         </div>

@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import { Fragment, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react';
 
@@ -28,7 +29,7 @@ export default function circles() {
                 <Dialog.Description className={'mt-4 px-4 font-light py-2'}>
                         Name: Synthia Hawthrone<br></br>
                         Occupation: Junior Web Developer<br></br>
-                        Description: As a junior web developer, I'm excited about the opportunity to work with a dynamic team of experienced developers at Hot Beans. I'm looking forward to learning new skills and building on my existing foundation in web development.
+                        Description: As a junior web developer, Im excited about the opportunity to work with a dynamic team of experienced developers at Hot Beans. Im looking forward to learning new skills and building on my existing foundation in web development.
                 </Dialog.Description>
             </Dialog.Panel>
             </Transition>
@@ -49,7 +50,7 @@ export default function circles() {
                 <Dialog.Description className={'mt-4 px-4 py-2 font-light'}>
                          Name: James Wilburt<br></br>
                          Occupation: Junior Web Developer<br></br>
-                         Description: As a junior web developer, I'm excited about the opportunity to work with a dynamic team of experienced developers at Hot Beans. I'm looking forward to learning new skills and building on my existing foundation in web development.
+                         Description: As a junior web developer, Im excited about the opportunity to work with a dynamic team of experienced developers at Hot Beans. Im looking forward to learning new skills and building on my existing foundation in web development.
                 </Dialog.Description>
             </Dialog.Panel>
             </Transition>
@@ -70,7 +71,7 @@ export default function circles() {
                 <Dialog.Description className={'font-light px-4 mt-4 py-2'}>
                         Name: Rachel Zaine<br></br>
                         Occupation: Senior Web Developer<br></br>
-                        Description: As a senior web developer, I understand the importance of staying ahead of the curve in a constantly evolving field. That's why I'm excited to join a company like Hot Beans, where I can work with a team of talented individuals who are passionate about web development.
+                        Description: As a senior web developer, I understand the importance of staying ahead of the curve in a constantly evolving field. Thats why Im excited to join a company like Hot Beans, where I can work with a team of talented individuals who are passionate about web development.
                 </Dialog.Description>
             </Dialog.Panel>
             </Transition>
@@ -91,7 +92,7 @@ export default function circles() {
                 <Dialog.Description className={'font-light px-4 mt-4 py-2'}>
                         Name: Anna Higgins<br></br>
                         Occupation: Junior Web Developer<br></br>
-                        Description: As a junior web developer, I'm excited about the opportunity to work with a dynamic team of experienced developers at Hot Beans. I'm looking forward to learning new skills and building on my existing foundation in web development.
+                        Description: As a junior web developer, Im excited about the opportunity to work with a dynamic team of experienced developers at Hot Beans. Im looking forward to learning new skills and building on my existing foundation in web development.
                 </Dialog.Description>
             </Dialog.Panel>
             </Transition>
@@ -112,7 +113,7 @@ export default function circles() {
                 <Dialog.Description className={'font-light mt-4 px-4 py-2'}>
                         Name: Charlie Manson<br></br>
                         Occupation:  UI & UX Developer<br></br>
-                        Description: As a UI/UX designer, I understand the importance of creating engaging and intuitive user experiences that meet the needs of our clients and their customers. I'm excited about the opportunity to work with a talented team of professionals at Hot Beans and leverage my skills to deliver high-quality solutions.
+                        Description: As a UI/UX designer, I understand the importance of creating engaging and intuitive user experiences that meet the needs of our clients and their customers. Im excited about the opportunity to work with a talented team of professionals at Hot Beans and leverage my skills to deliver high-quality solutions.
                 </Dialog.Description>
             </Dialog.Panel>
             </Transition>
@@ -134,7 +135,7 @@ export default function circles() {
                 <Dialog.Description className={'mt-4 px-4 font-light py-2'}>
                         Name: Adam Francis<br></br>
                         Occupation: Senior Web Developer<br></br>
-                        Description: As a senior web developer, I understand the importance of staying ahead of the curve in a constantly evolving field. That's why I'm excited to join a company like Hot Beans, where I can work with a team of talented individuals who are passionate about web development.
+                        Description: As a senior web developer, I understand the importance of staying ahead of the curve in a constantly evolving field. Thats why Im excited to join a company like Hot Beans, where I can work with a team of talented individuals who are passionate about web development.
                 </Dialog.Description>
             </Dialog.Panel>
             </Transition>

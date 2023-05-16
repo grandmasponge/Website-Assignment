@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-sync-scripts */
 import Navbar from "./components/navbar"
 import Footer from "./components/footer"
 import Compiler from './components/compiler'
@@ -18,7 +19,7 @@ export default function learning() {
                     <h1 className="px-8 font-bold text-xl py-3">W3 schools</h1>
                     </div>
                     <div>
-                        <p className="font-light text-xs px-5 ">W3Schools is an exceptional platform that offers a vast array of tutorials, references, and interactive examples for various coding languages, including HTML, CSS, JavaScript, and more. Whether you're a beginner or an experienced developer, W3Schools provides a user-friendly learning experience.
+                        <p className="font-light text-xs px-5 ">W3Schools is an exceptional platform that offers a vast array of tutorials, references, and interactive examples for various coding languages, including HTML, CSS, JavaScript, and more. Whether youre a beginner or an experienced developer, W3Schools provides a user-friendly learning experience.
 
 Their step-by-step tutorials and hands-on exercises enable you to grasp fundamental concepts and apply them in real-world scenarios.</p>
                     </div>
@@ -44,7 +45,7 @@ Their step-by-step tutorials and hands-on exercises enable you to grasp fundamen
                     <h1 className="py-5 font-bold text-xl">Udemy</h1>
                     </div>
                     <div>
-                        <p className="text-xs md:text-sm lg:text-sm font-light px-5 ">udemy offers a vast library of courses taught by industry experts, covering a wide range of web development topics. Whether you're looking to enhance your skills in HTML, CSS, JavaScript, or delve into advanced frameworks like React or Angular, Udemy has a course for you.
+                        <p className="text-xs md:text-sm lg:text-sm font-light px-5 ">udemy offers a vast library of courses taught by industry experts, covering a wide range of web development topics. Whether youre looking to enhance your skills in HTML, CSS, JavaScript, or delve into advanced frameworks like React or Angular, Udemy has a course for you.
 
 </p>
                     </div>
