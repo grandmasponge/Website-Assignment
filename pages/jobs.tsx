@@ -42,14 +42,17 @@ export default function jobs() {
             <h1 className="font-bold font-4xl">Job Description</h1>
             <h2 className="font-bold font-xl py-4">Junior web developer</h2>
             <p>Pay: 32k-40k per year<br></br>
+               Qualifications: Level 3 Btech, 5 GCSE at grades 5 and above <br></br>
                Description: As a junior web developer, you ll have the opportunity to work on exciting projects and learn from experienced developers. Were looking for individuals with a solid foundation in web development and a desire to learn and grow. 
             </p>
             <h2 className="font-bold font-xl py-4">Senior Web Developer</h2>
             <p>Pay: 60k-80k per year<br></br>
+            Qualifications: Level 3 Btech, 5 GCSE at grades 5 and above <br></br>
                Description: For senior web developers, we re seeking individuals with a proven track record of delivering high-quality work, a deep understanding of the latest web development technologies, and a creative problem-solving mindset.
             </p>
             <h2 className="font-bold font-xl py-4"> UI & UX Designer</h2>
             <p>Pay: 20k-70k<br></br>
+            Qualifications: Level 3 Btech, 5 GCSE at grades 5 and above <br></br>
                Description: As a UI/UX designer, youll play a crucial role in creating engaging user experiences. Were looking for individuals with a strong eye for detail, a deep understanding of design principles, and the ability to collaborate effectively with our development team. 
             </p>
 
